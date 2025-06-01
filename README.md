@@ -36,3 +36,6 @@ Create a constructor to initialize the name, dateOfBirth, and rollNumber of the 
 
 ## Exception Handling:
 Implement exception handling to ensure that the date of birth provided is not in the future."
+
+## Main Program:
+In the Main method, create at least two Student objects with different data.
