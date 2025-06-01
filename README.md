@@ -39,3 +39,6 @@ Implement exception handling to ensure that the date of birth provided is not in
 
 ## Main Program:
 In the Main method, create at least two Student objects with different data.
+
+## Display
+ Display the details of each student including name, date of birth, and roll number."

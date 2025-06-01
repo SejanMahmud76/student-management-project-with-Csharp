@@ -80,9 +80,17 @@ public class MyClass
         try
         {
             Student student1 = new Student("Rakibul Hasan Sezan", new DateTime(1999, 05, 16), "cse1802064");
-            Student student2 = new Student("Arjon Golder", new DateTime(1998, 05, 16), "cse1802073"); 
- 
+            Student student2 = new Student("Arjon Golder", new DateTime(1998, 05, 16), "cse1802073");
 
+
+            //Display the details of each student 
+            Console.WriteLine($"Student Details: ");
+            Console.WriteLine($"------------------");
+            Console.WriteLine($"Name: {student1.Name},Date of Birth: {student1.DateofBirth},Roll Number: {student1.RollNumber}");
+            Console.WriteLine($"Name: {student2.Name},Date of Birth: {student2.DateofBirth},Roll Number: {student2.RollNumber}");
+            
+            
+            
         }
 
         catch (Exception ex)
