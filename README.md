@@ -20,3 +20,9 @@ code .
 
 # Instructions:
 ## Create a class: MyClass & Main method
+
+## Student Class Definition:
+    Private Fields:
+        name (string)
+        dateOfBirth (DateTime)
+        rollNumber (string)
