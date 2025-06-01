@@ -1,4 +1,12 @@
 ﻿
+
+/*
+## Student Class Definition:
+    Private Fields:
+        name (string)
+        dateOfBirth (DateTime)
+        rollNumber (string)
+*/
 public class Student
 {
     private string? _name;
@@ -9,7 +17,7 @@ public class Student
 
 
 
-
+    // Implementing appropriate access modifiers set,get
 
     public string? Name
     {
@@ -22,18 +30,33 @@ public class Student
         set { _dateofBirth = value; }
         get { return _dateofBirth; }
     }
-    
+
     public string? RollNumber
     {
         set { _rollNumber = value; }
         get { return _rollNumber; }
     }
 
+
+    //Create a constructor to initialize the name, dateOfBirth, and rollNumber of the student
+
+    public Student(string name, DateTime dateofBirth, string rollNumber)
+    {
+        Name = name;
+        DateofBirth = dateofBirth;
+        RollNumber = rollNumber;
+
+
+    }
+
+
+
 }
 
 
 
 
+// # Create a class: MyClass & Main method
 public class MyClass
 {
 

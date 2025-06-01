@@ -31,3 +31,6 @@ code .
 ## Properties: Implement properties for the above fields with appropriate access modifiers 
 (typically public get/set for general data access, or public get and private set if you want to control how the value is set internally).
 
+## Constructor: 
+Create a constructor to initialize the name, dateOfBirth, and rollNumber of the student.
+
