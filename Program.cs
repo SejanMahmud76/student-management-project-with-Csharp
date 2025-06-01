@@ -27,7 +27,20 @@ public class Student
 
     public DateTime DateofBirth
     {
-        set { _dateofBirth = value; }
+        set
+        {
+            //Exception Handling:
+            
+            if (value > DateTime.Now)
+            {
+                throw new ArgumentException
+                ("Date of birth can not be in the future")
+            }
+            else
+            {
+                _dateofBirth = value;
+            }
+        }       
         get { return _dateofBirth; }
     }
 
