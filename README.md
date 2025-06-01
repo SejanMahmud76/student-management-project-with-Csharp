@@ -26,3 +26,8 @@ code .
         name (string)
         dateOfBirth (DateTime)
         rollNumber (string)
+
+
+## Properties: Implement properties for the above fields with appropriate access modifiers 
+(typically public get/set for general data access, or public get and private set if you want to control how the value is set internally).
+

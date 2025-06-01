@@ -9,9 +9,24 @@ public class Student
 
 
 
-    public string Name
+
+
+    public string? Name
     {
-        set {}
+        set { _name = value; }
+        get { return _name; }
+    }
+
+    public DateTime DateofBirth
+    {
+        set { _dateofBirth = value; }
+        get { return _dateofBirth; }
+    }
+    
+    public string? RollNumber
+    {
+        set { _rollNumber = value; }
+        get { return _rollNumber; }
     }
 
 }
