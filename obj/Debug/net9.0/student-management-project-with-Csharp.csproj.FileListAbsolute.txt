@@ -1,0 +1,15 @@
+C:\Users\sejan\Downloads\.net\student-management-project-with-Csharp\bin\Debug\net9.0\student-management-project-with-Csharp.exe
+C:\Users\sejan\Downloads\.net\student-management-project-with-Csharp\bin\Debug\net9.0\student-management-project-with-Csharp.deps.json
+C:\Users\sejan\Downloads\.net\student-management-project-with-Csharp\bin\Debug\net9.0\student-management-project-with-Csharp.runtimeconfig.json
+C:\Users\sejan\Downloads\.net\student-management-project-with-Csharp\bin\Debug\net9.0\student-management-project-with-Csharp.dll
+C:\Users\sejan\Downloads\.net\student-management-project-with-Csharp\bin\Debug\net9.0\student-management-project-with-Csharp.pdb
+C:\Users\sejan\Downloads\.net\student-management-project-with-Csharp\obj\Debug\net9.0\student-management-project-with-Csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sejan\Downloads\.net\student-management-project-with-Csharp\obj\Debug\net9.0\student-management-project-with-Csharp.AssemblyInfoInputs.cache
+C:\Users\sejan\Downloads\.net\student-management-project-with-Csharp\obj\Debug\net9.0\student-management-project-with-Csharp.AssemblyInfo.cs
+C:\Users\sejan\Downloads\.net\student-management-project-with-Csharp\obj\Debug\net9.0\student-management-project-with-Csharp.csproj.CoreCompileInputs.cache
+C:\Users\sejan\Downloads\.net\student-management-project-with-Csharp\obj\Debug\net9.0\student-management-project-with-Csharp.sourcelink.json
+C:\Users\sejan\Downloads\.net\student-management-project-with-Csharp\obj\Debug\net9.0\student-management-project-with-Csharp.dll
+C:\Users\sejan\Downloads\.net\student-management-project-with-Csharp\obj\Debug\net9.0\refint\student-management-project-with-Csharp.dll
+C:\Users\sejan\Downloads\.net\student-management-project-with-Csharp\obj\Debug\net9.0\student-management-project-with-Csharp.pdb
+C:\Users\sejan\Downloads\.net\student-management-project-with-Csharp\obj\Debug\net9.0\student-management-project-with-Csharp.genruntimeconfig.cache
+C:\Users\sejan\Downloads\.net\student-management-project-with-Csharp\obj\Debug\net9.0\ref\student-management-project-with-Csharp.dll

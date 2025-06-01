@@ -17,3 +17,6 @@
 ```
 code .
 ```
+
+# Instructions:
+## Create a class: MyClass & Main method
