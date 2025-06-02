@@ -70,7 +70,13 @@ public class Student
         return age;
     }
 
-    
+    //Necessary properties to access CalculateAge Method
+     public int Age
+    {
+        get { return CalculateAge(); }
+
+     }
+
     
 
 
@@ -98,8 +104,8 @@ public class MyClass
             //Display the details of each student 
             Console.WriteLine($"Student Details: ");
             Console.WriteLine($"------------------");
-            Console.WriteLine($"Name: {student1.Name},Date of Birth: {student1.DateofBirth.ToShortDateString()},Roll Number: {student1.RollNumber}");
-            Console.WriteLine($"Name: {student2.Name},Date of Birth: {student2.DateofBirth.ToShortDateString()},Roll Number: {student2.RollNumber}");
+            Console.WriteLine($"Name: {student1.Name},Date of Birth: {student1.DateofBirth.ToShortDateString()},Roll Number: {student1.RollNumber}, Age: {student1.Age}");
+            Console.WriteLine($"Name: {student2.Name},Date of Birth: {student2.DateofBirth.ToShortDateString()},Roll Number: {student2.RollNumber}, Age: {student2.Age}");
             
             
             
