@@ -30,7 +30,7 @@ public class Student
         set
         {
             //Exception Handling:
-            
+
             if (value > DateTime.Now)
             {
                 throw new ArgumentException
@@ -40,7 +40,7 @@ public class Student
             {
                 _dateofBirth = value;
             }
-        }       
+        }
         get { return _dateofBirth; }
     }
 
@@ -61,6 +61,18 @@ public class Student
 
 
     }
+
+    //calculate the age of the student based on the date of birth
+    //creating the Method to calculate Age
+    private int CalculateAge()
+    {
+        int age = DateTime.Now.Year - DateofBirth.Year;
+        return age;
+    }
+
+    
+    
+
 
 
 
@@ -86,8 +98,8 @@ public class MyClass
             //Display the details of each student 
             Console.WriteLine($"Student Details: ");
             Console.WriteLine($"------------------");
-            Console.WriteLine($"Name: {student1.Name},Date of Birth: {student1.DateofBirth},Roll Number: {student1.RollNumber}");
-            Console.WriteLine($"Name: {student2.Name},Date of Birth: {student2.DateofBirth},Roll Number: {student2.RollNumber}");
+            Console.WriteLine($"Name: {student1.Name},Date of Birth: {student1.DateofBirth.ToShortDateString()},Roll Number: {student1.RollNumber}");
+            Console.WriteLine($"Name: {student2.Name},Date of Birth: {student2.DateofBirth.ToShortDateString()},Roll Number: {student2.RollNumber}");
             
             
             

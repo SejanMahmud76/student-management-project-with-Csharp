@@ -42,3 +42,7 @@ In the Main method, create at least two Student objects with different data.
 
 ## Display
  Display the details of each student including name, date of birth, and roll number."
+
+
+ ## CalculateAge(): 
+ Add a method to calculate the age of the student based on the date of birth and display it along with other details.
