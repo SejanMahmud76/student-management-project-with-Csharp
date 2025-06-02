@@ -71,14 +71,22 @@ public class Student
     }
 
     //Necessary properties to access CalculateAge Method
-     public int Age
+    public int Age
     {
         get { return CalculateAge(); }
 
-     }
+    }
 
-    
 
+    //Creating a method to display all the information
+    public void PrintDetails()
+    {
+        //Display the details of each student 
+            Console.WriteLine($"Student Details: ");
+            Console.WriteLine($"------------------");
+            Console.WriteLine($"Name: {Name},Date of Birth: {DateofBirth.ToShortDateString()},Roll Number: {RollNumber}, Age: {Age}");
+           
+    }
 
 
 
@@ -100,12 +108,9 @@ public class MyClass
             Student student1 = new Student("Rakibul Hasan Sezan", new DateTime(1999, 05, 16), "cse1802064");
             Student student2 = new Student("Arjon Golder", new DateTime(1998, 05, 16), "cse1802073");
 
+            student1.PrintDetails();
+            student2.PrintDetails();
 
-            //Display the details of each student 
-            Console.WriteLine($"Student Details: ");
-            Console.WriteLine($"------------------");
-            Console.WriteLine($"Name: {student1.Name},Date of Birth: {student1.DateofBirth.ToShortDateString()},Roll Number: {student1.RollNumber}, Age: {student1.Age}");
-            Console.WriteLine($"Name: {student2.Name},Date of Birth: {student2.DateofBirth.ToShortDateString()},Roll Number: {student2.RollNumber}, Age: {student2.Age}");
             
             
             
